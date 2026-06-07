@@ -2,6 +2,8 @@
 
 A cozy café-themed Pomodoro timer app with hand-drawn illustrations!
 
+![Brew & Focus](public/screenshots/demo.gif)
+
 ## About
 Brew & Focus lets you pick a drink, choose your session length, and focus — all inside a warm, illustrated café setting.
 
@@ -24,6 +26,6 @@ npm run dev
 ```
 
 ## Preview
-![Start](public/images/screenshots/brewandfocus.jpg)
-![Menu](public/images/screenshots/menu.jpg)
-![Timer](public/images/screenshots/focus.jpg)
+![Start](public/screenshots/brewandfocus.jpg)
+![Menu](public/screenshots/menu.jpg)
+![Timer](public/screenshots/focus.jpg)
