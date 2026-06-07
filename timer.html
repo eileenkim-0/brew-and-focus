@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brew & focus | timer</title>
+
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/timer.css">
+</head>
+<body>
+    <div id="app" class="paper-bg">
+        <img src="/images/cafebg1.png" alt="background" id="timer-bg">
+        <div id="drink-btn-wrapper">
+            <img src="/images/btn/drinkbtn.png" id="drink-btn">
+            <img id="drink-img" src="" alt="drink">
+        </div>
+        <div id="timer-right">
+            <div id="timer-display-wrapper">
+                <img src="/images/btn/timerbtnn.png" id="timer-display-bg">
+                <div id="timer-display">00:00</div>
+            </div>
+            <div id="timer-controls">
+                <img src="/images/btn/pausebtnn.png" alt="pause" id="pause-btn">
+                <img src="/images/btn/playbtnn.png" alt="play" id="play-btn">
+            </div>
+        </div>
+        <div id="taskbar"></div>
+    </div>
+
+    <div id="done-popup" class="hidden">
+        <div id="done-content">
+            <p id="done-text">you're all done! ☕</p>
+            <div id="done-btns">
+                <button id="leave-btn">leave cafe</button>
+                <button id="new-order-btn">new order please!</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="src/timer.js"></script>
+</body>
+</html>
