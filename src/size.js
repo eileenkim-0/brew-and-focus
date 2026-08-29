@@ -5,7 +5,7 @@ const selectedDrink = localStorage.getItem("selectedDrink");
 const drinkImg = document.getElementById("drink-img");
 
 if(selectedDrink) {
-    drinkImg.src = `/images/drinks/${selectedDrink}.png`;
+    drinkImg.src = `src/images/drinks/${selectedDrink}.png`;
     drinkImg.alt = selectedDrink;
 }
 

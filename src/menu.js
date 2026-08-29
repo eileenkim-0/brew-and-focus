@@ -28,7 +28,7 @@ warmDrinks.forEach(drink => {
     div.dataset.drink = drink;
 
     const img = document.createElement("img");
-    img.src = `/images/drinks/${drink}.png`;
+    img.src = `src/images/drinks/${drink}.png`;
     img.alt = drink;
     div.addEventListener("click", () => {
     localStorage.setItem("selectedDrink", drink);
@@ -45,7 +45,7 @@ coldDrinks.forEach(drink => {
     div.dataset.drink = drink;
 
     const img = document.createElement("img");
-    img.src = `/images/drinks/${drink}.png`;
+    img.src = `src/images/drinks/${drink}.png`;
     img.alt = drink;
     
     if (drink === "affogato") {

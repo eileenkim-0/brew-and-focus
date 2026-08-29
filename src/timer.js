@@ -17,7 +17,7 @@ const pauseBtn = document.getElementById("pause-btn");
 const playBtn = document.getElementById("play-btn");
 
 if (selectedDrink) {
-    drinkImg.src = `/images/drinks/${selectedDrink}.png`;
+    drinkImg.src = `src/images/drinks/${selectedDrink}.png`;
 }
 
 function formatTime(seconds) {
